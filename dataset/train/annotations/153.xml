@@ -1,0 +1,26 @@
+<annotation>
+	<folder>images</folder>
+	<filename>153.jpeg</filename>
+	<path>C:\Users\Akshay\Downloads\Compressed\dataset\train\images\153.jpeg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>251</width>
+		<height>201</height>
+		<depth>1</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>gun</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>35</xmin>
+			<ymin>75</ymin>
+			<xmax>73</xmax>
+			<ymax>107</ymax>
+		</bndbox>
+	</object>
+</annotation>

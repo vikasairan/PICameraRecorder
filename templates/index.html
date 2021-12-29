@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>SafeCam Live Video</title>
+</head>
+<style>
+.button {
+  border: none;
+  text-align: center;
+  font-size: 13px;
+  cursor: pointer;
+  background-color: white; 
+  border: 2px solid #008CBA;
+}
+</style>
+<body background="{{ url_for('static', filename='image.jpg') }}" align = "center">
+  <h1 style= "color:white; font-size: 45px;"> SafeCam Live Video </h1>
+  <div id="recorder">
+    <button class= button id="identify" style="width: 80px; height: 40px; margin:20px;"><b>IDENTIFY</b></button>
+    <button class= button id="identifyStop" style="width: 80px; height: 40px; margin:20px;"><b>STOP</b></button>
+    <button class= button id="record" style="width: 80px; height: 40px; margin:20px;"><b>RECORD</b></button>
+    <button class= button id="stop" style="width: 80px; height: 40px; margin:20px;"><b>STOP</b></button>
+    </br>
+    <a id="download"></a>
+    <script type="text/javascript" src="{{ url_for('static', filename='recorder.js') }}"></script>      
+  </div>
+    </br> 
+    <img id="video" src="{{ url_for('video_viewer') }}">
+</body>
+</html>

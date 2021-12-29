@@ -1,0 +1,26 @@
+<annotation>
+	<folder>images</folder>
+	<filename>image 5.jpg</filename>
+	<path>D:\Study Material\Capstone project\knife\images\image 5.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>254</width>
+		<height>198</height>
+		<depth>1</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>knife</name>
+		<pose>Unspecified</pose>
+		<truncated>1</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>1</xmin>
+			<ymin>79</ymin>
+			<xmax>254</xmax>
+			<ymax>120</ymax>
+		</bndbox>
+	</object>
+</annotation>

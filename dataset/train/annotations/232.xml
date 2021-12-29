@@ -1,0 +1,26 @@
+<annotation>
+	<folder>images</folder>
+	<filename>232.jpeg</filename>
+	<path>C:\Users\Akshay\Downloads\Compressed\dataset\train\images\232.jpeg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>201</width>
+		<height>141</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>gun</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>83</xmin>
+			<ymin>35</ymin>
+			<xmax>110</xmax>
+			<ymax>62</ymax>
+		</bndbox>
+	</object>
+</annotation>

@@ -1,0 +1,26 @@
+<annotation>
+	<folder>images</folder>
+	<filename>knife.3.jpg</filename>
+	<path>D:\Study Material\Capstone project\Object detection\dataset\train\images\knife.3.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>1280</width>
+		<height>1280</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>knife</name>
+		<pose>Unspecified</pose>
+		<truncated>1</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>16</xmin>
+			<ymin>19</ymin>
+			<xmax>1263</xmax>
+			<ymax>1280</ymax>
+		</bndbox>
+	</object>
+</annotation>
